@@ -96,4 +96,10 @@ input[type="text"]{
 	input[type="text"]{
 		height:50px;
 	}
+	#me{
+		display:none;
+	}
+	#search_res{
+		color:white;
+	}
 }
