@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      			<!-- Library of Bootstrap -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     	    		<!-- Library of jQuery -->
+      <script src="jquery-3.1.1.min.js"></script>
+           		<!-- CSS file-->
+      <link href="style.css" rel="stylesheet" type="text/css" />
+	   		 <!-- Title -->
+	    <title>Wikipedia Viewer</title>
+</head>
+<body>
+	<div class="container">
+	<!--title of the website-->
+		<div id="header">
+			<center>
+			<img src="wiki.png" width="80" height="80" />
+			<span><b>WIKIPEDIA VIEWER</b></span>
+			</center>
+		</div>
+	<!--navigation bar-->
+		<div id="nav" class="text-center">
+			<a href="#">Wikipedia search</a> |
+			<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random Page</a>
+		</div>
+	<!--search bar-->
+		<div id="search">
+			<input type="text" id="num" name="search" align="center" placeholder="Search....">
+			<span style="margin-top:5px"><img src="w.ico"  id="icon" width="60" height="60" ></span>
+		</div>
+	<!--reults-->
+		<div id="search_res">
+			<h3 id="about" class="text-center"></h3>
+			<h3 id="topics"></h3>
+		</div>
+			<p id="me">Nusrath</p>
+	</div>
+<script src="wiki.js"></script>
+</body>
+</html>
